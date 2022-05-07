@@ -1,0 +1,41 @@
+//this is a simple integer calculator
+public class Calculator {
+  //constructor method
+  public Calculator(){ 
+  }
+  //this method will allow to sum integers
+  public int add(int a, int b){ 
+    int sumOfInts = a + b;
+    return sumOfInts;
+  }
+  //this method will allow to subtract integers
+  public int subtract(int a, int b){
+    int subtractOfInts = a - b;
+    return subtractOfInts;
+  }
+  //this method will allow to multiply integers
+  public int multiply(int a, int b){
+    int multiplicationOfInts = a * b;
+    return multiplicationOfInts;
+  }
+  //this method will allow to divide integers
+  public int divide(int a, int b){
+    int divisionOfInts = a / b;
+    return divisionOfInts;
+  }
+  //this method will allow to modulate integers
+  public int modulo(int a, int b){
+    int moduloOfInts = a % b;
+    return moduloOfInts;
+  }
+
+  public String toString(){
+    return "Hello! Welcome to the Calculator!";
+  }
+  public static void main(String[] args){
+    Calculator myCalculator = new Calculator();
+    System.out.println(myCalculator);
+
+    
+  }
+}
